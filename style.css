@@ -146,3 +146,42 @@ form input:focus{
   box-shadow: 0 6px 18px rgba(108,74,212,0.08);
 }
 
+/* Buttons - stack but with a small gap */
+.register-btn,
+.signin-btn{
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: transform .12s ease, box-shadow .12s ease;
+  margin-bottom: 10px;
+  display:block;
+}
+
+/* primary filled */
+.register-btn{
+  background: linear-gradient(180deg, var(--primary), var(--primary-dark));
+  color: white;
+  border: 0;
+  box-shadow: 0 8px 20px rgba(108,74,212,0.12);
+}
+
+/* outline */
+.signin-btn{
+  background: transparent;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+}
+
+/* hover states */
+.register-btn:hover{ 
+    transform: translateY(-2px); 
+    box-shadow: 0 14px 30px rgba(108,74,212,0.14); 
+}
+.signin-btn:hover{ 
+    background: rgba(108,74,212,0.04); 
+    transform: translateY(-1px);
+ }
+
