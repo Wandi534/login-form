@@ -24,3 +24,44 @@ body {
   padding: 24px;
 }
 
+
+/* Outer card */
+.container {
+  display: flex;
+  width: 900px;
+  max-width: 100%;
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--card-bg);
+  box-shadow: 0 12px 30px rgba(16,24,40,0.08);
+}
+
+/* Left illustration panel */
+.left-panel{
+  flex: 1;
+  min-width: 320px;
+  background: var(--panel-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 36px;
+  position: relative;
+}
+
+.left-panel::after{
+  content: '';
+  position: absolute;
+  width: 260px;
+  height: 180px;
+  border-radius: 50%;
+  background: rgba(108,74,212,0.06);
+  bottom: 30px;
+  left: 20px;
+  z-index: 0;
+}
+ .left-panel img{
+  max-width: 85%;
+  height: auto;
+  z-index: 1;
+  display: block;
+}
