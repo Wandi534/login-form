@@ -65,3 +65,12 @@ body {
   z-index: 1;
   display: block;
 }
+
+/* Right form panel */
+.right-panel{
+  flex: 1;
+  padding: 48px 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
