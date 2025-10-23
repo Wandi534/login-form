@@ -74,3 +74,48 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+/* Containing box for logo + form */
+.form-box{
+  width: 100%;
+  max-width: 380px;
+}
+
+/* Logo row */
+.logo{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  margin-bottom: 18px;
+}
+
+.logo .circle{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--primary);
+  color: #fff;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-weight:600;
+  font-size: 1rem;
+  box-shadow: 0 6px 14px rgba(108,74,212,0.12);
+}
+
+.logo h1{
+  font-size: 1.05rem;
+  margin: 0;
+  color: #1f2937;
+  font-weight: 600;
+}
+
+
+/* Heading */
+h2{
+  margin: 6px 0 20px 0;
+  color: #111827;
+  font-size: 1.6rem;
+  line-height: 1.1;
+  font-weight: 700;
+}
