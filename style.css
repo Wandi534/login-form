@@ -1,0 +1,26 @@
+:root{
+  --primary: #6c4ad4;
+  --primary-dark: #5a3cc0;
+  --panel-bg: #f8f6ff;
+  --muted: #888e96;
+  --card-bg: #ffffff;
+  --radius: 20px;
+}
+
+* { box-sizing: border-box; }
+html,body{
+  height: 100%;
+  margin: 0;
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+  background-color: #f3f5f8;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
