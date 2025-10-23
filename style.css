@@ -183,5 +183,19 @@ form input:focus{
 .signin-btn:hover{ 
     background: rgba(108,74,212,0.04); 
     transform: translateY(-1px);
- }
+}
+
+/* Terms text */
+.terms{
+  font-size: 0.81rem;
+  color: var(--muted);
+  margin-top: 12px;
+  line-height: 1.4;
+}
+
+.terms a{
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 600;
+}
 
